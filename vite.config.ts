@@ -18,5 +18,6 @@ export default defineConfig({
   build: {
     chunkSizeWarningLimit: 1600,
   },
-  base: "/mass-melodies",
+  // base: "/mass-melodies",
+  base: "",
 });

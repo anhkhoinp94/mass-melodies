@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "postbuild": "echo mass-melodies.mrkentechs.space > dist/CNAME",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "preview": "vite preview",
